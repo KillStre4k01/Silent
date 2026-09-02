@@ -47,15 +47,15 @@ jobs:
           difficulty=normal
           hardcore=false
           pvp=true
-          online-mode=true
-          white-list=true
+          online-mode=false
+          white-list=false
           enforce-whitelist=true
           max-players=10
-          view-distance=8
+          view-distance=64
           simulation-distance=6
           allow-flight=false
           server-port=25565
-          server-ip=
+          server-ip=SilentSmp
           level-name=world
           generate-structures=true
           EOF
