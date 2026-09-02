@@ -63,3 +63,7 @@ jobs:
       - name: Start Paper Server
         run: |
           java -Xms1G -Xmx4G -jar paper.jar --nogui
+      - name: Silent SMP
+             run: |
+               echo "Public IP:"
+               curl -4 https://ifconfig.me
